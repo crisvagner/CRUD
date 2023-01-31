@@ -1,0 +1,24 @@
+{
+  "name": "desafio-mcsv23-001",
+  "version": "1.0.0",
+  "description": "O projeto \"nome do meu projeto\" é um projeto desenvolvido em (\"Tecnologias usadas no projeto\"). O projeto tem como objetivo demonstrar minhas habilidades e o que eu sei fazer.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crisvagner/desafio-mcsv23-001.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crisvagner/desafio-mcsv23-001/issues"
+  },
+  "homepage": "https://github.com/crisvagner/desafio-mcsv23-001#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

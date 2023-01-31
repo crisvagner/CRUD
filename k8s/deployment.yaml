@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: meuapp-ainda-sem-nome
+spec:
+  selector:
+    matchLabels:
+      app: meuapp-ainda-sem-nome
+  template:
+    metadata:
+      labels: 
+        app: meuapp-ainda-sem-nome
+    spec:
+      containers:
+      - name: meucontainer-ainda-sem-nome
+        image: crisvagner/minha-imagem:ainda-sem-nome
+        ports: 
+        - containerPort: 3023
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: meuapp-ainda-sem-nome
+spec: 
+  selector:
+    app: meuapp-ainda-sem-nome
+  ports:
+    - port: 70
+      targetPort: 3023
+      nodePort: 30000
+  type: NodePort
