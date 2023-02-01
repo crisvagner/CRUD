@@ -8,7 +8,7 @@ obs:
 
 - Prazo de entrega: 6 dias;
 - Até agr so montei o Dockerfile, o yaml do k8s e a estrutura de pastas MVC;
-- Eu ainda n vendo um projeto que eu possa da meu máximo, e claro, não entregar atrasado kkkk
+- Eu ainda estou vendo um projeto em que eu possa dar o meu máximo, e claro, não entregar atrasado kkkk
 
 ### Observações do projeto
 
