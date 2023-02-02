@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: meuapp-ainda-sem-nome
+  name: to-do-list
 spec:
   selector:
     matchLabels:
-      app: meuapp-ainda-sem-nome
+      app: to-do-list
   template:
     metadata:
       labels: 
-        app: meuapp-ainda-sem-nome
+        app: to-do-list
     spec:
       containers:
-      - name: meucontainer-ainda-sem-nome
-        image: crisvagner/minha-imagem:ainda-sem-nome
+      - name: container-crud
+        image: crisvagner/to-do-list:v1
         ports: 
         - containerPort: 3023
 
@@ -22,10 +22,10 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: meuapp-ainda-sem-nome
+  name: to-do-list
 spec: 
   selector:
-    app: meuapp-ainda-sem-nome
+    app: to-do-list
   ports:
     - port: 70
       targetPort: 3023
