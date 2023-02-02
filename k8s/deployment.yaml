@@ -15,7 +15,7 @@ spec:
       - name: container-crud
         image: crisvagner/to-do-list:v1
         ports: 
-        - containerPort: 3023
+        - containerPort: 3000
 
 ---
 
@@ -28,6 +28,6 @@ spec:
     app: to-do-list
   ports:
     - port: 70
-      targetPort: 3023
+      targetPort: 3000
       nodePort: 30000
   type: NodePort
