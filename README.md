@@ -46,6 +46,6 @@ Após eu ter montado o Schema no arquivo schema.prisma e ter criado o banco de d
 
 ### Observações do projeto
 
-Projeto FullStack com foco no Back End, visto que a interface vai ser simples.
+Projeto FullStack com foco no Back End, visto que a interface vai ser simples. Pretendo colocar a aplicação em containers e tbm vou tentar por infraestrutura como um código com Terraform se der tempo kkkk
 
 AINDA EM DESENVOLVIMENTO...
