@@ -44,12 +44,15 @@ Após eu ter montado o Schema no arquivo schema.prisma e ter criado o banco de d
 >   npx prisma db push
 ```
 
-### Observações do projeto
+## Observações do projeto
 
-Projeto FullStack com foco no Back End, visto que a interface está bem simples. O yaml do kubernetes e o Dockerfile estão prontos para serem usados. A porta da aplicação em containers é a 70 e caso queira rodar sem containers é a porta 3000.
+* Projeto FullStack com foco no Back End, visto que a interface está bem simples. 
+* O yaml do kubernetes e o Dockerfile estão prontos para serem usados.
+* A porta da aplicação em containers é a 70 e caso queira rodar sem containers é a porta 3000.
+* Eu usei o banco de dados MySQL no desenvolvimento mas ao rodar a aplicação em containers eu uso a imagem do bd postgres.
 
 
-## Iniciando a aplicação localmente sem o uso de containers:
+### Iniciando a aplicação localmente sem o uso de containers:
 
 Primeiro, crie um banco de dados chamado "db" e prepare o ambiente de desenvolvimento:
 
