@@ -46,6 +46,6 @@ Após eu ter montado o Schema no arquivo schema.prisma e ter criado o banco de d
 
 ### Observações do projeto
 
-Projeto FullStack com foco no Back End, visto que a interface vai ser simples. Pretendo colocar a aplicação em containers e tbm vou tentar por infraestrutura como um código com Terraform se der tempo kkkk
+Projeto FullStack com foco no Back End, visto que a interface vai ser simples. Ja ta com o yaml do kubectl do kubernetes e o Dockerfile prontos para serem usados. A porta da aplicação em containers é a 70 e fazendo o gitclone e rodando sem containers é a porta 3000.
 
-AINDA EM DESENVOLVIMENTO...
+
