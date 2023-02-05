@@ -46,7 +46,7 @@ Após eu ter montado o Schema no arquivo schema.prisma e ter criado o banco de d
 
 ### Observações do projeto
 
-Projeto FullStack com foco no Back End, visto que a interface vai ser simples. Ja ta com o yaml do kubectl do kubernetes e o Dockerfile prontos para serem usados. A porta da aplicação em containers é a 70 e fazendo o gitclone e rodando sem containers é a porta 3000.
+Projeto FullStack com foco no Back End, visto que a interface está bem simples. O yaml do kubernetes e o Dockerfile estão prontos para serem usados. A porta da aplicação em containers é a 70 e caso queira rodar sem containers é a porta 3000.
 
 
 ## Iniciando a aplicação localmente sem o uso de containers:
