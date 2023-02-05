@@ -51,12 +51,23 @@ Projeto FullStack com foco no Back End, visto que a interface vai ser simples. J
 
 ## Iniciando a aplicação localmente sem o uso de containers:
 
-Primeiro, prepare o ambiente de desenvolvimento:
+Primeiro, crie um banco de dados chamado "db" e prepare o ambiente de desenvolvimento:
+
+-> criando um banco de dados chamado "db":
+
+```bash
+>   mysql -h localhost -u root -p
+
+>   CREATE DATABASE db;
+```
+
+-> montando o ambiente de desenvolvimento:
 
 ```bash
 >   yarn install
 >   npx prisma db push
 ```
+
 
 Segundo, execute o servidor:
 
