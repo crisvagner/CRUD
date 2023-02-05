@@ -49,3 +49,19 @@ Após eu ter montado o Schema no arquivo schema.prisma e ter criado o banco de d
 Projeto FullStack com foco no Back End, visto que a interface vai ser simples. Ja ta com o yaml do kubectl do kubernetes e o Dockerfile prontos para serem usados. A porta da aplicação em containers é a 70 e fazendo o gitclone e rodando sem containers é a porta 3000.
 
 
+## Iniciando a aplicação localmente sem o uso de containers:
+
+Primeiro, prepare o ambiente de desenvolvimento:
+
+```bash
+>   yarn install
+>   npx prisma db push
+```
+
+Segundo, execute o servidor:
+
+```bash
+>   yarn dev
+# or
+>   npm run dev
+```
