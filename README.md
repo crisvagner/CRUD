@@ -1,4 +1,4 @@
-# CRUD - TO DO LIST
+# TO DO LIST - NEXT.JS
 
 ## Sobre o projeto
 
